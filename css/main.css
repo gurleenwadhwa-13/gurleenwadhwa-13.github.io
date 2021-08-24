@@ -1,0 +1,170 @@
+
+/*Importing a list of fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Atkinson+Hyperlegible:ital@1&family=Manrope&display=swap');
+
+h1{
+    margin-top: 20px;
+    font-family: 'Manrope', cursive; 
+    font-size: 90px;
+}
+
+h2{
+    font-family: 'Manrope', cursive; 
+    font-size: 40px;
+    color: #66BFBF;
+    padding-bottom:10px;
+}
+
+h3{
+    font-family: 'Manrope', cursive; 
+    font-size: 30px;
+    color: #66BFBF;
+    
+}
+
+body{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #dbe4f3;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(11, 29, 48);
+}
+
+hr{
+     border: dotted #dafafa 6px;
+     border-bottom: none;
+     width: 10%;
+}
+
+a{
+    margin: 10px 10px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    /*color: #064b4b; */
+     color: #EAF6F6;
+}
+
+/* -------------------------------------- DIV 1 : Intro ------------------------------------- */
+
+.Intro{                                 /*It is a div with name intro */
+    font-weight: 200;
+    padding: 10%;
+    font-weight: normal;
+    margin: 100px 0;
+}
+
+
+.Name{
+    color: rgb(242, 255, 240);
+    background-color: red; 
+}
+
+/*------------------------------------- DIV 2 : Middle Container ----------------------------------- */
+
+.profile{
+    margin: 100px 0;
+}
+
+#Profile-picture{
+    height: 300px;
+    width: 300px;
+}
+
+.intro{
+    width: 30%;
+    margin: 30px auto;
+}
+
+.skills{
+    margin: 100px 0;
+}
+
+.skill-row{
+    width: 50%;
+    position: relative;
+    margin: 100px auto 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.react-img{
+    width: 25%;
+    margin: auto;
+    float: left;
+    margin-right: 50px;
+}
+
+.mern-img{
+    width: 25%;
+    float: right;
+    margin-bottom: 70px;
+    margin-left: 70px;
+}
+
+.contact-me{
+    margin: 100px auto;
+}
+
+/*------------------------------------- DIV 3 : Bottom Container ----------------------------- */
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    margin-top: 100px;
+    color: black;
+
+}
+
+.footer-link{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* ---------------------------------------- BUTTON GENERATED ----------------------------------*/
+
+.BUTTON_EXC {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_EXC:hover {
+    border: solid #337FED 1px;
+    background: #2F52DD;
+    background-image: -webkit-linear-gradient(top, #2F52DD, #3D94F6);
+    background-image: -moz-linear-gradient(top, #2F52DD, #3D94F6);
+    background-image: -ms-linear-gradient(top, #2F52DD, #3D94F6);
+    background-image: -o-linear-gradient(top, #2F52DD, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #2F52DD, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+
